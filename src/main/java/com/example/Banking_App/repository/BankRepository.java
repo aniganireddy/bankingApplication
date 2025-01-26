@@ -7,4 +7,5 @@ import java.util.Optional;
 
 public interface BankRepository extends MongoRepository<AccountModel,String> {
     Optional<AccountModel> findByPartId(String partId);
+    Optional<AccountModel> deleteByPartId(String partId);
 }

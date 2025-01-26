@@ -30,4 +30,5 @@ public class AccountModel {
         int partyId = 100000000 + random.nextInt(900000000); // Generates a 9-digit number
         return String.valueOf(partyId);
     }
+
 }
